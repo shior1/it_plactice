@@ -1,0 +1,194 @@
+@charset "utf-8";
+/*サイト全体の指定*/
+body {
+	width: 1900px;
+	margin: auto 0;
+	padding: 0;
+    font-family: "游明朝","ヒラギノ明朝 ProN" ;
+    background-color: #fff;
+}
+ul,li {
+	list-style-type: none;
+}
+
+h2 {
+	display: block;
+	width: 460px;
+	color: #62656a;
+	border-bottom: 1px solid #b69baf;
+
+}
+
+h3 {
+	color: #212121;
+}
+
+p{
+	color: #384958;
+}
+/*ヘッダー*/
+.top {
+	display: flex;
+}
+h1 {
+	margin-top: 40px;
+	margin-left: 160px;
+}
+
+/*ナビ*/
+#nav>ul{
+	margin-left: 380px;
+	display: flex;
+	width: 815px;
+	/*height: 58px;*/
+	padding-top: 40px;
+}
+#nav ul li{
+	width: 140px;
+	position: relative;
+}
+
+#nav a {
+	display: block;
+	padding: 3px;
+	color: #212121;
+	border: 1px solid #cfd1d1;
+	text-align: center;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+#nav a:hover {
+	background-color: #a5aeb6;
+	color: #fff;
+	opacity: 0.5;
+}
+
+
+ul.subs{
+	position: absolute;
+	top: 100%;
+	width: 140px;
+	background-color: #fff;
+	padding-left: 0;
+}
+/*タイトル（Concept)*/
+#concept {
+	display: block;
+	width: 1240px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 120px;
+	margin-bottom: 175px;
+	color: #62656a;
+	text-align: center;
+	border-bottom: 1.5px solid #b69baf;
+}
+/*ブランドストーリー*/
+h2.story_title{
+margin-left: 150px;
+margin-bottom: 160px;
+}
+
+.story_inner { 
+	width: 1506px;
+	margin-left: 225px;
+}
+
+.story_inner img {
+	float: left;
+	margin-right: 300px;
+	margin-top: 50px;
+}
+h3.story_subtitle{
+	display: block;
+	margin-bottom: 130px;
+	font-size: 21px;
+}
+
+p.story_msg{
+	display: block;
+	line-height: 60px;
+	font-size: 18px;
+}
+/*素材について*/
+.material {
+	margin-top: 355px;
+}
+h2.material_title {
+	margin-bottom: 160px;
+	margin-left: 1275px;
+}
+/*ドライフラワー*/
+.flower_inner img {
+	float: right;
+	margin-right: 200px;
+	clear: both;
+}
+
+h3.flower_subtitle{
+	display: block;
+	margin-bottom: 160px;
+	margin-left: 225px;
+	font-size: 21px;
+}
+
+p.flower_msg{
+	display: block;
+	line-height: 60px;
+	font-size: 18px;
+	margin-bottom: 450px;
+	margin-left: 380px;
+}
+/*金箔・銀箔*/
+section.gold{
+	margin-bottom: 250px;
+}
+.gold_inner img {
+	float: left;
+	margin-top: 50px;
+	margin-left: 225px;
+	
+}
+h3.gold_subtitle{
+	margin-left: 950px;
+	margin-bottom: 150px;
+	font-size: 21px;
+}
+
+p.gold_msg{
+	display: block;
+	margin-left: 1050px;
+	line-height: 60px;
+	font-size: 18px;
+}
+/*フッター*/
+#footer {
+	display: flex;
+	padding: 3px;
+	background-color: #b69baf;
+	color: #fff;
+	clear: both;
+}
+p.privacy {
+	margin-left: 160px;
+}
+p.law {
+	margin-left: 40px;
+}
+
+p.reserved {
+	margin-left: 940px;
+}
+
+p.privacy a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+p.law a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}

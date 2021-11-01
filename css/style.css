@@ -1,0 +1,174 @@
+@charset "utf-8";
+/*サイト全体の指定*/
+body {
+	width: 1900px;
+	margin: auto 0;
+	padding: 0;
+    font-family: "游明朝","ヒラギノ明朝 ProN" ;
+    background-color: #fff;
+}
+
+ul,li {
+	list-style-type: none;
+}
+
+/*ヘッダー*/
+#header {
+	width: 100vw;
+	height: 100vh;
+	background-position:center center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.top {
+	display: flex;
+}
+h1 {
+	display: block;
+	position: absolute;
+	top: 5%;
+	left: 8%;
+}
+
+.hn {
+	display: none;
+}
+/*ナビ*/
+#nav>ul{
+	display: flex;
+	width: 815px;
+	/*height: 58px;*/
+	position: absolute;
+	top: 7%;
+	right: 4%;
+}
+#nav ul li{
+	width: 140px;
+	position: relative;
+}
+
+#nav a {
+	display: block;
+	padding: 3px;
+	color: #212121;
+	border: 1px solid #cfd1d1;
+	text-align: center;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+#nav a:hover {
+	background-color: #a5aeb6;
+	color: #fff;
+	opacity: 0.5;
+}
+
+ul.subs{
+	position: absolute;
+	top: 100%;
+	width: 140px;
+	background-color: #fff;
+	padding-left: 0;
+}
+
+
+
+/*キャッチフレーズ・インフォ*/
+.section_info{
+	display: block;
+	font-size: 18px;
+	margin-top: 150px;
+}
+
+p.main_msg {
+	color: #b69baf;
+	line-height: 60px;
+	text-align: center;
+}
+
+p.main_info {
+	color: #212121;
+	margin-top: 70px;
+	text-align: center;
+	opacity: 0.7;
+}
+
+/*商品*/
+.section_item {
+	margin-top: 150px;
+}
+
+h2 {
+	margin-left: 120px;
+}
+/*新商品*/
+ul.new_list {
+	display: flex;
+	margin-left: 160px;
+}
+
+.new_list a {
+	display: block;
+	margin-left: 160px;
+}
+
+.new_list a:hover{
+ opacity: 0.5;
+}
+
+/*カテゴリー*/
+.category {
+	margin-top: 200px;
+}
+
+h2.categoryname {
+	margin-bottom: 80px;
+}
+
+ul.category_list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: 140px;
+}
+
+ul.category_list  li {
+	width: 380px;
+}
+
+.category_list a:hover{
+	opacity: 0.5;
+}
+/*フッター*/
+#footer {
+	display: flex;
+	padding: 3px;
+	background-color: #b69baf;
+	color: #fff;
+}
+p.privacy {
+	margin-left: 160px;
+}
+p.law {
+	margin-left: 40px;
+}
+
+p.reserved {
+	margin-left: 940px;
+}
+
+p.privacy a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+p.law a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
